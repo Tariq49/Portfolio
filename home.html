@@ -1,0 +1,50 @@
+<!--Inform the browser about the version of html-->
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Tariq Portfolio</title>
+            <link rel="stylesheet" type="text/css"  href="assets/css/home.css"/>
+            <!--INternal CSS-->
+            <style>
+                body {
+                    background-color: aliceblue;
+                    font-family: 'Courier New', Courier, monospace;
+                    width: 70%;
+                    margin:  0 auto;
+                    text-align: center;
+                }
+                h1 {
+                    color: blue;
+                    text-align: center;
+                    font-size: 50px;
+                }
+
+
+            </style>
+    </head>
+    <!--Where the content belongs-->
+    <body>
+        <!--heading-->
+        <h1>About Me</h1>
+        <img  width="350" alt="hard working male image" src="assets/images/Unbenannt.jpeg" />
+        
+        
+        <!--Paragraph-->
+        <p>Tariq has worked in various fields and has a <span style="color: red">wide range of experiences</span> in different professions.</p>
+        <p>He is currently a student at <a  id="dci" href="https://digitalcareerinstitute.org/">DCI</a></p>
+        <h3>Skills</h3>
+        <ul id="skill-list">
+            <li>Taxi-und Mietwagenunternehmer</li>
+            <li>Martial Arts Instructor</li>
+            <li>Naturopathic Medicine</li>
+        </ul>
+        <hr />
+
+        <img src="data:image/png;base64,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" />
+        <br />
+        <a href="https://github.com/Tariq49">Github</a>, <a href="https://www.linkedin.com">LinkedIn</a>
+
+    </body>
+
+
+</html>
